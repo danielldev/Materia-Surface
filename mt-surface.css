@@ -1,0 +1,61 @@
+.ms-picsart{
+	border-radius: 9px;
+	transition: all 150ms linear 0s
+	padding  0px 130px;
+	font-family: sans-serif;
+}
+body {
+	background-color: rgb(220, 220, 220);
+	font-family: sans-serif, "times new roman";
+}
+#main-image{
+	margin-left: 150px;
+	border: 1px solid #0000CD;
+}
+nav {
+	font-family: serif;
+	width: 100%;
+	padding: 5px;
+	float: center;
+}
+.about { 
+	display: inline-block;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #1874CD;
+    margin-left: 15px ;
+    padding: 0px 30px;
+    text-decoration: none;
+    border-radius: 9px;
+    transition: all 150ms linear 0s
+}
+p{
+	font-weight: 500;
+	font-size: 17px;
+	font-family: sans-serif;
+	
+}
+h1 {
+	font-family: sans-serif;
+	position: relative;
+	
+}
+h2{
+	font-size: 26px;
+	font-family: sans-serif;
+}
+#about{
+	text-decoration: none;
+}
+#image1{
+	border: 1px solid #0000CD;
+}
+#image2{
+	border: 1px solid #0000CD;
+}
+a.hover {
+	background-color: rgba(64, 224, 208);
+	color: blanchedalmond;
+}
