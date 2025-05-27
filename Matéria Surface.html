@@ -4,87 +4,108 @@
 	<title>Surface Studio 2</title>
 	<meta charset="utf-8">
 	<meta name="width=device-width,initial-scale=1,0" language="pt">
-	<link rel="stylesheet" href="mt-surface.css" />
+	<link rel="stylesheet" href="style.css"/>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+	</style>
+	<meta property="og:title" content="Daniel Felipe">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Materia Surface Studio 2">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="Foto do Surface Studio 2">
+    <meta property="og:site_name" content="Matéria do Surface Studio 2">
+    <meta property="og:url" content="https://danielldev.github.io/mt-surface/">
 </head>
 <body>
 	<header>
-		<div class="container">
-			<div class="logo">WNews</div>
-			<nav>
+		<div class="container" id="navigation">
+			<div class="logo"><a href="#news">WNews</a></div>
+			<nav class="nav-links">
 				<a href="#home">Home</a>	
-				<a href="#sobre">Sobre Nós</a>
-				<a href="#contato">Contato</a>
+				<a href="https://danielldev.github.io/My-Landing-page---Awari/" target="_blank">Sobre Nós</a>
+				<a href="#contact">Contato</a>
 			</nav>
 		</div>
 	</header>
 
 	<!-- Hero Section-->
-	<section class="sections" id="hero-section">
+	<section class="container" id="hero">
 		<h1>Microsoft anuncia o Surface Studio 2 é o mais poderoso da linha até agora</h1>
+		<div class="start-info">
+			<img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/7483261/jbareham_161114_1269_0316_2400px_05.0.jpeg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=1080">
 
-		<img src="https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/7483261/jbareham_161114_1269_0316_2400px_05.0.jpeg?quality=90&strip=all&crop=0%2C0%2C100%2C100&w=1080">
+			<p>A Microsoft anunciou a chegada do novo Surface Studio 2, o mais poderoso da linha apresentado até agora. O dispositivo mantém a tela de 28 polegadas do antecessor, mas ganhou incrementos significativos no que toca as suas especificações: agora, ele está equipado com SSD de 2 <abbr title="Terabyte">TB</abbr>, processador Intel Core i7 de sétima geração placa NVIDIA com tecnologia Pascal, 50% mais rápida do que a versão anterior.</p>
+		</div>
+		
+	</section>
 
-		<p>A Microsoft anunciou a chegada do novo Surface Studio 2, o mais poderoso da linha apresentado até agora. O dispositivo mantém a tela de 28 polegadas do antecessor, mas ganhou incrementos significativos no que toca as suas especificações: agora, ele está equipado com SSD de 2 <abbr title="Terabyte">TB</abbr>, processador Intel Core i7 de sétima geração placa NVIDIA com tecnologia Pascal, 50% mais rápida do que a versão anterior.</p>
+	<section class="container" id="navigation">
+		<button class="navigation"><a href="#details">Detalhes</a></button>
+		<button class="navigation"><a href="#specs">Especificaçoes</a></button>
+		<button class="navigation"><a href="#info">Informaçoes</a></button>
 	</section>
 
 	<!-- Details Section-->
-	<section id="section-details">
-		<div>
-			<video width="570" height="320" controls>
-				<source src="ms-surface-studio-2.mp4" type="video/mp4">
-				<source src="ms-surface-studio-2.mp4" type="video/ogg">
-			</video>
+	<section id="details">
+		<div class="container" id="midia">
+			<div>
+				<iframe src="https://www.youtube.com/embed/fsQSWu8gBUs" frameborder="0" width="500" height="300"></iframe>
+			</div>
+			<div class="video-description">
+				<h2>O Surface mais potente <br> de sempre</h2>	
+			</div>
 		</div>
-		<div>
-			<h2>O Surface mais potente de sempre</h2>	
-		</div>
+		
 	</section>
 
 	<!--Seçao com as especifcaçoes técnicas-->
-	<section id="specs-section">
-		<div class="container">
+	<section class="container" id="specs">
+		<div>
 			<div class="title">
 				<h2>Especificaçoes técnicas</h2>
 				<p>Por fora não há muito o que conferir, já que eles mantiveram praticamente o mesmo design e funcionalidades da versão original, inclusive seu inovador mecanismos que permite transformar o All-in-One da Microsoft uma grande mesa de desenho digital. As principais mudanças de fato foram internas, com atualização de componentes diversos e melhorias no processo produtivo.</p>
 			</div>
 			<div class="features-grid">
-				<div class="feature_card">
-					<div></div>
+				<div class="feature-card">
+					<div class="feature-icon">🖥️</div>
 					<h3>Tela</h3>
 					<p>
 						Sua tela com resolução 40% superior ao 4K de 28 polegadas foi atualizada com “um novo material de cristal líquido” que a Microsoft alega ter resultados em pretos mais profundos.
 					</p>
 				</div>
-				<div class="feature_card">
-					<div></div>
+				<div class="feature-card">
+					<div class="feature-icon">🔢</div>
 					<h3>Processador</h3>
 					<p>
-						Ela será ajudada por um processador Intel® Core™ i7-7820HQ para uma computação mais poderosa. 
+						Equipado com um processador Intel® Core™ i7-7820HQ para uma computação mais poderosa. 
 					</p>
 				</div>
-				<div class="feature_card">
-					<div></div>
+				<div class="feature-card">
+					<div class="feature-icon">💾</div>
 					<h3>Armazenamento</h3>
 					<p>
 						Com até 2TB de SSD.
 					</p>
 				</div>
-				<div class="feature_card">
-					<div></div>
+				<div class="feature-card">
+					<div class="feature-icon">📟</div>
 					<h3>Memória</h3>
 					<p>
 						Até 32GB de memória RAM DDR4. 
 					</p>
 				</div>
-				<div class="feature_card">
-					<div></div>
+				<div class="feature-card">
+					<div class="feature-icon">🎥</div>
 					<h3>Placa de vídeo</h3>
 					<p>
 						GPU Nvidia GTX 1070 com até 8 GB de memória DDR5
 					</p>
 				</div>
-				<div class="feature_card">
-					<div></div>
+				<div class="feature-card">
+					<div class="feature-icon">📡</div>
 					<h3>Conexoes</h3>
 					<p>
 						Wi-Fi: 802.11ac Wi-Fi wireless networking, IEEE 802.11 a/b/g/n compatible, Bluetooth Wireless 4.1 technology, Xbox Wireless built-inFootnote
@@ -93,11 +114,11 @@
 
 
 				</div>
-			</div>
 		</div>
 	</section>
 
-	<section class="container" id="last-info">
+	<!--Last informations-->
+	<section class="container" id="info">
 		<div>
 			<img src="./images/Surface-Studio-2-UnboxingTherapy.jpg" alt="Imagem de um homem atrás de um Surface Studio 2">
 		</div>
@@ -107,20 +128,5 @@
 			</p>
 		</div>
 	</section>
-
-<!--
-<p>.<br>
-O interessante é que diferente do Surface Laptop 2, a mais nova versão do Surface Studio ganhou uma entrada USB-C, o que deixará a maioria dos seus compradores super felizes.</p>
-
-<div>
-	<img src="surface.jpg" width="600" alt="Microsoft" id="image1">
-	<img src="Surface-Studio-2-UnboxingTherapy.jpg" id="image2">
-</div>
-<a href="https://www.microsoft.com/en-us/p/surface/8sbjxm0m58t4?icid=surfacedept_nav5_surfacefamily_100218&irgwc=1&OCID=AID681541_aff_7593_159229&tduid=%28ir_b1133693N027c14fd13aef6be4244da47%29%287593%29%28159229%29%28%29%28UUwpUdUnU59219YYwYwo5uw4zdpo5zwgzloorzgc3bomnxw2%29&irclickid=b1133693N027c14fd13aef6be4244da47&activetab=pivot:overviewtab" target="_blank" alt="Unbox Therapy" >
-Ele já está disponível para compra na Microsoft Store nos EUA com preços que partem dos US 3499</a>, ou algo em torno de R$ 14000<br>
-<footer>Fonte:WindowsTeam</footer><p>
-
-</div>
--->
 	</body>
 </html>
