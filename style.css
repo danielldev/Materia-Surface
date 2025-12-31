@@ -11,6 +11,10 @@ body {
     background-color: #f9f9f9;
 }
 
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
 #navigation {
     height: 111.075px;
     display: flex;
